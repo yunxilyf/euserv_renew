@@ -20,6 +20,6 @@ accounts:
   - username: "用户2"
     password: "用户2"
 ```
-#打赏一杯快乐水
+# 打赏一杯快乐水
 ![打赏](https://52xhuan.cn/wp-content/uploads/2021/08/zanshang.png)
 # Power BY [小幻博客](https://52xhuan.cn)
