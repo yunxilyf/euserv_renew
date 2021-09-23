@@ -1,4 +1,16 @@
-- username: "账号"
-  password: "密码"
-- username: "账号"
-  password: "密码"
+#smtp服务器
+smtpserver: ""
+#是否启用ssl加密
+smtpssl: false
+#smtp用户名
+smtpusername: ""
+#smtp密码
+smtppassword: ""
+#邮箱接收人
+contactsmail: ""
+#账号列表
+accounts:
+  - username: "用户1"
+    password: "用户1"
+  - username: "用户2"
+    password: "用户2"
