@@ -4,7 +4,7 @@
 请配合cron使用
 ```yaml
 #smtp服务器
-smtpserver: ""
+smtpserver: "host:port"
 #是否启用ssl加密
 smtpssl: false
 #smtp用户名
