@@ -30,7 +30,6 @@ func SendMailTls(user string ,pwd string,server string,Subject string,body strin
 	header["From"] = user
 	header["To"] = toMail
 	header["Subject"] = Subject
-	header["Content-Type"] = "text/html; charset=UTF-8"
 	message := ""
 	for k, v := range header {
 		message += fmt.Sprintf("%s: %s\r\n", k, v)

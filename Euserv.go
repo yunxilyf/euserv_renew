@@ -96,7 +96,7 @@ var useTime int
 var Log string
 func LoginEuserv(user User) {
 	startTime := time.Now()
-	Log+=fmt.Sprintf("========================%s=============================\r\n",user.UserName)
+	Log+=fmt.Sprintf("\r\n===========%s===============\r\n",user.UserName)
 	fmt.Printf("\r\n==========%s==========\r\n", user.UserName)
 	request, _ := http.NewRequest("GET", "https://support.euserv.com/?method=json", nil)
 	res, err := client.Do(request)
