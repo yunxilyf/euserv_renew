@@ -10,7 +10,7 @@ smtppassword: ""
 contactsmail: ""
 #账号列表
 accounts:
-  - username: "用户1"
-    password: "用户1"
+  - username: "liuyoufa666@gmail.com"
+    password: "lyf123456789+-"
   - username: "用户2"
     password: "用户2"
